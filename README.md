@@ -1,2 +1,2 @@
-# 20250712_linebot
+# linebot
 至理
