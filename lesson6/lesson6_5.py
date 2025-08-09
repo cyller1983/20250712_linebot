@@ -4,6 +4,6 @@ from google import genai
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash", contents="python可以用來分析股票嗎?"
+    model="gemini-2.5-flash", contents="如何訓練地端ai模型?"
 )
 print(response.text)
