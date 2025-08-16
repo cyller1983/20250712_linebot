@@ -4,6 +4,7 @@ from google.genai import types
 
 client =  genai.Client()
 
+
 with gr.Blocks() as demo:
     gr.Markdown("## Text to Summarization(總結)")
     style_radio = gr.Radio(choices=['小學','商業','專業','口語化','條列式'], label="風格")
