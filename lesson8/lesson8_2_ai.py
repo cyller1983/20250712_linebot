@@ -1,4 +1,8 @@
-## Block 架構
+#建立一個gradio的Blocks的架構
+#功能:
+#1.建立姓名輸入框
+#2.建立輸出框
+#3.建立按鈕
 
 import gradio as gr
 
